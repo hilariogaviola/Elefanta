@@ -5,24 +5,27 @@
 
 /*--header--*/
 
-header {
-    position: sticky;
-    top: 0;
-}
-
 header nav ul li a {
     text-decoration: none;
     color: rgb(214, 207, 207);
     margin: 15px;
-}
+font-weight: 600; }
+
+
+   
 
 header nav img {
     width: 200px;
     height: 100px;
+
 }
 
 header {
     background-color: rgb(143, 142, 142);
+    padding: 10px 10px;
+    position: sticky;
+    top: 0;
+    align-items: center;
 }
 
 header nav ul li {
@@ -35,6 +38,7 @@ header nav {
     align-items: end;
     flex-wrap: nowrap;
 }
+@media (max-width:700px) {header {flex-direction:column;}}
 
 /*--MAIN--*/
 main {
@@ -70,6 +74,7 @@ main {
     background-position: center;
     color: white;
     text-align: center;
+    
     ;
 }
 
@@ -80,6 +85,7 @@ main {
     align-items: center;
     padding: 0%;
     margin: 10px;
+    font-family: sans-serif
 }
 
 .hero {
@@ -163,7 +169,8 @@ main {
     grid-column-end: 5;
     margin: 10px;
 }
-.somos{height: auto; width: auto;;overflow: scroll;}
+.somos{height: auto; width: auto;font-family: sans-serif}
+
 
 
 
@@ -185,4 +192,5 @@ footer a img {
 
 footer h5 {
     text-align: center;
+    font-family: sans-serif
 }
